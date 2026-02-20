@@ -1,5 +1,5 @@
 
-# pfSense RogueAP
+# pfsense RogueAP
 ### Morning! _Nice day for phishing_ ain't it? :fishing_pole_and_fish:
 This project installs RaspAP and Nodogsplash and patches them to run a portable malicious free network, capturing Google credentials and logging DNS queries on Raspberry Pi, it also includes a deauthentication script to disconnect clients from their AP, making them want to connect to the rogue one.
 ### Minimum hardware requirements, home setup and no deauth
