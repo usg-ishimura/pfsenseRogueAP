@@ -14,8 +14,8 @@ This project installs RaspAP and Nodogsplash and patches them to run a portable 
 - USB-C **Power Bank**
 ### Installation
 ```sh
-git clone https://github.com/usg-ishimura/pfsenseHoneypot.git
-cd pfsenseHoneypot
+git clone https://github.com/usg-ishimura/pfsenseRogueAP.git
+cd pfsenseRogueAP
 sudo ./install.sh
 ```
 ### Control Raspberry Pi in the portable setup
@@ -23,7 +23,7 @@ In the portable scenario is possible to SSH from Ethernet Tethering device to SS
 #### Portable setup
 [<ins>https://www.reddit.com/r/raspberry_pi/comments/pm1kww/psa_you_can_use_android_11s_new_ethernet/</ins>](https://www.reddit.com/r/raspberry_pi/comments/pm1kww/psa_you_can_use_android_11s_new_ethernet/)
 ### Deauthenticate clients from target AP
-Whether you choose to run the Honeypot from home or you make it portable, if you have a secondary Wireless Network Interface you can start Deauth Attack with the following command
+Whether you choose to run the RogueAP from home or you make it portable, if you have a secondary Wireless Network Interface you can start Deauth Attack with the following command
 ```sh
 sudo ./deauth.sh
 ```
@@ -31,7 +31,7 @@ Following Screenshots are from Android juiceSSH in the portable scenario, no nee
 just Monitor, Keyboard and Mouse can be used to control Raspberry Pi
  
 ![](media/Screenshot_JuiceSSH.jpg)![](media/Screenshot_JuiceSSH1.jpg)
-### Victim machine view connecting to the honeypot
+### Victim machine view connecting to the rogueAP
 ![](media/Sign-in_Mozilla-Firefox.gif)
 ### Retrieving credentials
 To retrieve credentials from Raspberry Pi you can run
